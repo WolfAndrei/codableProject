@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		00FD0CA925C2DE3D0071DD4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD0CA825C2DE3D0071DD4B /* AppDelegate.swift */; };
 		00FD0CAB25C2DE3D0071DD4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD0CAA25C2DE3D0071DD4B /* SceneDelegate.swift */; };
-		00FD0CAD25C2DE3D0071DD4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD0CAC25C2DE3D0071DD4B /* ViewController.swift */; };
 		00FD0CB025C2DE3D0071DD4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FD0CAE25C2DE3D0071DD4B /* Main.storyboard */; };
 		00FD0CB225C2DE3E0071DD4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FD0CB125C2DE3E0071DD4B /* Assets.xcassets */; };
 		00FD0CB525C2DE3E0071DD4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FD0CB325C2DE3E0071DD4B /* LaunchScreen.storyboard */; };
+		00FD0CCF25C2DE920071DD4B /* Packet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD0CCE25C2DE920071DD4B /* Packet.swift */; };
+		00FD0CDD25C2E45F0071DD4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD0CAC25C2DE3D0071DD4B /* ViewController.swift */; };
+		00FD0CE525C30F890071DD4B /* APIPreferencesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD0CE425C30F890071DD4B /* APIPreferencesLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00FD0CA525C2DE3D0071DD4B /* newproj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newproj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FD0CA525C2DE3D0071DD4B /* codableProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codableProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FD0CA825C2DE3D0071DD4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00FD0CAA25C2DE3D0071DD4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		00FD0CAC25C2DE3D0071DD4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		00FD0CB125C2DE3E0071DD4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00FD0CB425C2DE3E0071DD4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00FD0CB625C2DE3E0071DD4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FD0CCE25C2DE920071DD4B /* Packet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packet.swift; sourceTree = "<group>"; };
+		00FD0CE425C30F890071DD4B /* APIPreferencesLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPreferencesLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +44,7 @@
 		00FD0C9C25C2DE3D0071DD4B = {
 			isa = PBXGroup;
 			children = (
-				00FD0CA725C2DE3D0071DD4B /* newproj */,
+				00FD0CA725C2DE3D0071DD4B /* codableProject */,
 				00FD0CA625C2DE3D0071DD4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +52,33 @@
 		00FD0CA625C2DE3D0071DD4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00FD0CA525C2DE3D0071DD4B /* newproj.app */,
+				00FD0CA525C2DE3D0071DD4B /* codableProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00FD0CA725C2DE3D0071DD4B /* newproj */ = {
+		00FD0CA725C2DE3D0071DD4B /* codableProject */ = {
 			isa = PBXGroup;
 			children = (
 				00FD0CA825C2DE3D0071DD4B /* AppDelegate.swift */,
 				00FD0CAA25C2DE3D0071DD4B /* SceneDelegate.swift */,
 				00FD0CAC25C2DE3D0071DD4B /* ViewController.swift */,
+				00FD0CE425C30F890071DD4B /* APIPreferencesLoader.swift */,
+				00FD0CCE25C2DE920071DD4B /* Packet.swift */,
 				00FD0CAE25C2DE3D0071DD4B /* Main.storyboard */,
 				00FD0CB125C2DE3E0071DD4B /* Assets.xcassets */,
 				00FD0CB325C2DE3E0071DD4B /* LaunchScreen.storyboard */,
 				00FD0CB625C2DE3E0071DD4B /* Info.plist */,
 			);
-			path = newproj;
+			path = codableProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00FD0CA425C2DE3D0071DD4B /* newproj */ = {
+		00FD0CA425C2DE3D0071DD4B /* codableProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00FD0CB925C2DE3E0071DD4B /* Build configuration list for PBXNativeTarget "newproj" */;
+			buildConfigurationList = 00FD0CB925C2DE3E0071DD4B /* Build configuration list for PBXNativeTarget "codableProject" */;
 			buildPhases = (
 				00FD0CA125C2DE3D0071DD4B /* Sources */,
 				00FD0CA225C2DE3D0071DD4B /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = newproj;
+			name = codableProject;
 			productName = newproj;
-			productReference = 00FD0CA525C2DE3D0071DD4B /* newproj.app */;
+			productReference = 00FD0CA525C2DE3D0071DD4B /* codableProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 00FD0CA025C2DE3D0071DD4B /* Build configuration list for PBXProject "newproj" */;
+			buildConfigurationList = 00FD0CA025C2DE3D0071DD4B /* Build configuration list for PBXProject "codableProject" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00FD0CA425C2DE3D0071DD4B /* newproj */,
+				00FD0CA425C2DE3D0071DD4B /* codableProject */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00FD0CAD25C2DE3D0071DD4B /* ViewController.swift in Sources */,
+				00FD0CCF25C2DE920071DD4B /* Packet.swift in Sources */,
 				00FD0CA925C2DE3D0071DD4B /* AppDelegate.swift in Sources */,
+				00FD0CDD25C2E45F0071DD4B /* ViewController.swift in Sources */,
+				00FD0CE525C30F890071DD4B /* APIPreferencesLoader.swift in Sources */,
 				00FD0CAB25C2DE3D0071DD4B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,12 +296,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KVD8C88G69;
-				INFOPLIST_FILE = newproj/Info.plist;
+				INFOPLIST_FILE = codableProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = volkau.andrei.personal.newproj;
+				PRODUCT_BUNDLE_IDENTIFIER = volkau.andrei.personal.codableProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +315,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KVD8C88G69;
-				INFOPLIST_FILE = newproj/Info.plist;
+				INFOPLIST_FILE = codableProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = volkau.andrei.personal.newproj;
+				PRODUCT_BUNDLE_IDENTIFIER = volkau.andrei.personal.codableProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00FD0CA025C2DE3D0071DD4B /* Build configuration list for PBXProject "newproj" */ = {
+		00FD0CA025C2DE3D0071DD4B /* Build configuration list for PBXProject "codableProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00FD0CB725C2DE3E0071DD4B /* Debug */,
@@ -331,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00FD0CB925C2DE3E0071DD4B /* Build configuration list for PBXNativeTarget "newproj" */ = {
+		00FD0CB925C2DE3E0071DD4B /* Build configuration list for PBXNativeTarget "codableProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00FD0CBA25C2DE3E0071DD4B /* Debug */,
